@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> MY HUNGRY DRAGON </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="css/SVG/favicon.svg"/>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Road+Rage&display=swap');
+        </style>
+</head>
+<body>
+    <header>
+        <nav id="globalnav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="assets.html">ASSETS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="logo">
+            <img class="logo-hp" src="css/SVG/Logo.svg" alt="logo">
+        </section>
+        <section id="screen">
+            <div id="game">
+                <audio src="css/sound-&-music/welcome-screen-music.mp3" id="welcome-screen-music" allow="autoplay" ></audio>
+                <audio src="css/sound-&-music/clicking-food.wav" id="click-sound"></audio>
+                <audio src="css/sound-&-music/game-play-music.mp3" id="gameplaymusic"></audio>
+                <audio src="css/sound-&-music/you-win-sound.mp3" id="you-win-sound"></audio>
+                <audio src="css/sound-&-music/dragon.mp3" id="dragon-flying-hp"></audio>
+                <audio src="css/sound-&-music/ws-music.mp3" id="ws-music"></audio>
+                <audio src="css/sound-&-music/click-buttons.mp3" id="clickingbuttons"></audio>
+                <audio src="css/sound-&-music/add-a-point.mp3" id="pointadd"></audio>
+                <audio src="css/sound-&-music/lose-a-life.mp3" id="lifelose"></audio>
+                <audio src="css/sound-&-music/you-lose-sound.wav" id="you-lost"></audio>
+                <div id="items">
+                    
+                    <!-- good items -->
+
+                <div id="game_sprites">
+                    <div id="good_item1" >
+                        <div id="g_sprite1"></div>
+                    </div>
+                    <div id="good_item2" >
+                        <div id="g_sprite2"></div>
+                    </div>
+                    <div id="good_item3">
+                        <div id="g_sprite3"></div>
+                    </div>
+                    <div id="good_item4">
+                        <div id="g_sprite4"></div>
+                    </div>
+                    <div id="good_item5">
+                        <div id="g_sprite5"></div>
+                    </div>
+                </div>
+
+                    <!-- bad items -->
+                <div id="baditems">
+                    <div id="bad_item1">
+                        <div id="b_sprite1"></div>
+                    </div>
+                    <div id="bad_item2">
+                        <div id="b_sprite2"></div>
+                    </div>
+                    <div id="bad_item3">
+                        <div id="b_sprite3"></div>
+                    </div>
+                </div>
+                <div id="middle-ground" class="dragon"></div>
+                <div id="game_ui">
+                    <div class="points-bar">
+                      <div id="points">0: points</div>  
+                    </div>
+                    <div id="lives">
+                        <div id="life1" class="heart"></div>
+                        <div id="life2" class="heart"></div>
+                        <div id="life3" class="heart"></div>
+                    </div>
+                    <div class="clock">
+                        <div id="time">30</div>
+                    </div>
+                    <div class="music"></div>
+                    <div class="sound"></div>
+                    <div id="home"></div>
+                </div>
+            </div>
+            </div>
+            <div id="title_screen" class="hidden">
+                <div id="elements"></div>
+                <div id="dragon-home"></div>
+                <div class="playgame"></div>
+                <div class="instructions"></div>
+                <div class="sound1"></div>
+                <div class="music1"></div>   
+            </div>
+            <div id="how-to-play" class="hidden">
+                <div id="htp"></div>
+                <div class="text-htp">
+                <p>Help the dragon to collect 15 points. You will get 1 point for every food item you click.</p> 
+                    <p>Avoid clicking the uneatable items because they will take away one life every time.</p>
+                    <p>You have 30 seconds to complete the game.</p>
+                    <p>GOOD LUCK!</p>
+                </div>
+                <div id="home-htp"></div>
+                <div id="play-htp"></div>
+            </div>
+            <div id="you_lose" class="hidden">
+                <div id="playagain"></div>
+                <div id="backhome"></div>
+            </div>
+            <div id="you_win" class="hidden">
+                <div id="playagain1"></div>
+                <div id="backhome1"></div>
+            </div>
+        </section>
+        <aside>
+            <p>The game was made as a study project for the Basic Animation Theme, Multimedia Design Program at KEA, 2021.</p>
+            <p>All items and UI elements are created using Adobe Illustrator.</p>
+            <p>Student: Vasil Terziyski</p>
+            <h5>Copyright: Vasil Terziyski ©</h5>
+        </aside>
+
+    </main>
+    <footer>
+        <nav id="footer">
+            <ul>
+                <li>
+
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="/html/javascript/script.js"></script>
+</body>
+</html>

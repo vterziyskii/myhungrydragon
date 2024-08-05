@@ -1,0 +1,753 @@
+/* FOR ASSETS PAGE*/
+h1, ul li {
+    font-family: 'Luckiest Guy', cursive;
+}
+h2, h3, p {
+    font-family: 'Original Surfer', cursive;
+}
+ul li a, ul li {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: larger;
+}
+ul li a {
+    color:azure;
+    float: right;
+}
+.hidden {
+    visibility: hidden;
+}
+header {
+    background-color: #4D908E;
+    padding: 10px;
+    display: flex;
+}
+.logo-hp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70%;
+    width: 50%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+}
+.title {
+    text-align: center;
+}
+.good-items img, .bad-items img, .UI-elements img {
+    height: 250px;
+}
+.screen {
+    width: 1200px;
+}
+.dragon1 img{
+    height: 230px;
+}
+aside p{
+    font-family: 'Road Rage', cursive;
+    font-weight: lighter;
+    font-size: 25px;
+}
+aside h5 {
+    font-family: 'Road Rage', cursive;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 85%;
+}
+
+/* FOR PAGES*/
+
+/* screens */
+#title_screen, #how-to-play, #you_win, #you_lose {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#title_screen {
+    background-image: url(svg/1x/background.1.png);
+    background-size: cover ;
+}
+
+#elements {
+    background-image: url(svg/1x/background-hp.png);
+    background-size: 100%;
+    position: absolute;
+    left: 25%;
+    top: 8%;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 75%;
+}
+
+.instructions {
+    background-image: url(svg/1x/how-to-play.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 10%;
+    height: 7%;
+    left: 42.5%;
+    top: 65%;
+    cursor: pointer;
+}
+
+#dragon-home {
+    background-image: url(svg/1x/dragon-home.png);
+    background-size: 100%;
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    background-repeat: no-repeat;
+    left: 60%;
+    top: 50%;
+    animation: bouncing 1s infinite ease-in-out;
+}
+
+.playgame {
+    background-image: url(svg/1x/play-button.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 15%;
+    height: 10%;
+    left: 40%;
+    top: 50%;
+    cursor: pointer;
+    animation: button 1s infinite ease-in;
+}
+
+#you_lose {
+    background-image: url(svg/1x/you-lost.png);
+    background-size: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+#playagain {
+    background-image: url(svg/play-again-button.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 10vw;
+    height: 15vh;
+    cursor: pointer;
+    margin-top: 35%;
+    margin-left: 45%;
+    animation: button 1s infinite ease-in;
+}
+
+#playagain1 {
+    background-image: url(svg/play-again-button.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 10vw;
+    height: 15vh;
+    cursor: pointer;
+    margin-top: 35%;
+    margin-left: 45%;
+    animation: button 1s infinite ease-in;
+}
+
+#you_win {
+    background-image: url(svg/1x/you-won.png);
+    background-size: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+#backhome1 {
+    background-image: url(svg/home.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 3vw;
+    height: 6.2vh;
+    cursor: pointer;
+    margin-top: 42%;
+    margin-left: 50%;
+}
+
+#backhome {
+    background-image: url(svg/home.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 3vw;
+    height: 6.2vh;
+    cursor: pointer;
+    margin-top: 42%;
+    margin-left: 50%;
+}
+
+
+#game {
+    width: 100%;
+    height: 100%;
+    background-image: url(SVG/background.svg);
+    position: relative;
+}
+#screen {
+    position: relative;
+    aspect-ratio: 16/9;
+    border: 2px black solid;
+    overflow: hidden;
+    grid-column: 1/2;
+}
+#how-to-play {
+    width: 100%;
+    height: 100%;
+    background-image: url(svg/1x/how-to-play1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+}
+#htp {
+    width: 20vw;
+    height: 10vh;
+    background-image: url(svg/1x/how-to-play-forpage.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: 10px;
+
+}
+.text-htp p{
+    font-family: 'Road Rage', cursive;
+    font-size: 2.6vw;
+    text-align: center;
+    position: relative;
+}
+#home-htp {
+    background-image: url(svg/home.svg);
+    background-size: cover;
+    height: 35px;
+    width: 35px;
+    bottom: 8px;
+    left: 8px;
+    position: absolute;
+    cursor: pointer;
+}
+
+#play-htp {
+    background-image: url(svg/play-button.svg);
+    background-size: cover;
+    height: 7.1vh;
+    width: 9.6vw;
+    margin:auto;
+    cursor: pointer;
+    animation: button2 1s infinite ease-in;
+}
+
+main {
+    grid-template-columns: 70% 1fr;
+    display: grid;
+    grid-gap: 5%;
+    
+}
+main {
+    display: grid;
+    grid-gap: 5%;
+    grid-template-columns: 70% 1fr;
+}
+
+
+/* UI elements */
+
+/* good items */
+
+#good_item1, #good_item2, #good_item3, #good_item4, #good_item5 {
+    aspect-ratio: 1/1;
+    position: absolute;
+    width: 5%;
+}
+
+#good_item1 {
+    height: 60px;
+    width: 6%;
+    cursor:grab;
+}
+
+#g_sprite1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(SVG/apple.svg);
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#good_item2 {
+    width: 5%;
+    background-size: 100%;
+    cursor:grab;
+    height: 50px;
+}
+
+#g_sprite2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(SVG/egg.svg);
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#good_item3 {
+    width: 5%;
+    cursor:grab;
+    height: 70px;
+    background-size: 100%;
+}
+
+#g_sprite3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(SVG/strawberry.svg);
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#good_item4 {
+    width: 5%;
+    cursor:grab;
+    height: 65px;
+}
+
+#g_sprite4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(SVG/banana.svg);
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#good_item5 {
+    width: 5%;
+    cursor:grab;
+    background-repeat: no-repeat;
+    height: 67px;
+}
+
+#g_sprite5 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(SVG/chili.svg);
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* bad items */
+
+#bad_item1, #bad_item2, #bad_item3 {
+    aspect-ratio: 1/1;
+    position: absolute;
+    width: 5%;
+}
+#bad_item1 {
+    width: 5%;
+    background-size: 100%;
+    cursor:grab;
+    height: 70px;
+}
+
+#b_sprite1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(SVG/poison.svg);
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#bad_item2 {
+    width: 5%;
+    cursor:grab;
+    background-repeat: no-repeat;
+    height: 60px;
+}
+
+#b_sprite2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(SVG/sock.svg);
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#bad_item3 {
+    width: 7%;
+    cursor:grab;
+    background-repeat: no-repeat;
+    height: 60px;
+}
+
+#b_sprite3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(SVG/dead-fish.svg);
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.heart {
+    background-image: url(svg/life.svg);
+    height: 33px;
+    width: 36px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left:8px ;
+    float: left;
+    margin-top: 5px;
+}
+.brokenheart {
+    background-image: url(svg/lost-life.svg);
+    height: 33px;
+    width: 36px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left:8px ;
+    float: left;
+    margin-top: 5px;
+}
+
+.lives {
+    margin-top: 80px;
+    margin-left: 6px;
+    position: absolute;
+    float: right;
+}
+
+.points-bar {
+    background-image: url(svg/points-forgame.svg);
+    background-size: cover;
+    position: absolute;
+    height: 44px;
+    width: 131px;
+    background-repeat: no-repeat;
+    align-items: center;
+    display: flex;
+    right: 5px;
+    top: 5px;
+}
+
+#points {
+    font-family: 'Luckiest Guy', cursive;
+    color: white;
+    align-items: center;
+    margin-left: 28px;
+    margin-top: 4px;
+    font-size: 16px;
+    position: absolute;
+}
+.sound {
+    background-image: url(svg/sound-on.svg);
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    bottom: 5px;
+    left: 50px;
+    position: absolute;
+}
+.sound1 {
+    background-image: url(svg/sound-on.svg);
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    bottom: 5px;
+    left: 8px;
+    position: absolute;
+}
+
+.soundoff1 {
+    background-image: url(svg/sound-off.svg);
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    bottom: 5px;
+    left: 8px;
+    position: absolute;
+}
+
+.music1 {
+    background-image: url(svg/music-on.svg);
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    bottom: 5px;
+    left: 53px;
+    position: absolute;
+}
+.musicoff1 {
+    background-image: url(svg/music-off.svg);
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    bottom: 5px;
+    left: 53px;
+    position: absolute;
+}
+.music {
+    background-image: url(svg/music-on.svg);
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    bottom: 5px;
+    left: 100px;
+    position: absolute;
+}
+#home {
+    background-image: url(svg/home.svg);
+    background-size: cover;
+    height: 35px;
+    width: 35px;
+    bottom: 8px;
+    left: 8px;
+    position: absolute;
+}
+.clock {
+    background-image: url(svg/clock.svg);
+    background-size: cover;
+    height: 48px;
+    width: 40px;
+    left: 6px;
+    position: absolute;
+    display: flex;
+    top: 55px;
+}
+#time {
+    color: #293241;
+    font-family: 'Luckiest Guy', cursive;
+    align-items: center;
+    font-size: 16px;
+    margin-left: 12px;
+    margin-top: 5px;
+    display: flex;
+}
+
+/* Positions  */
+
+.position1 {
+    left: 10%;
+    top: -30%;
+}
+
+.position2 {
+    left: 33%;
+    top: -30%;
+}
+
+.position3 {
+    left: 56%;
+    top: -30%;
+}
+
+.position4 {
+    left: 63%;
+    top: -30%;
+}
+
+.position5 {
+    left: 85%;
+    top: -30%;
+}
+
+/* Speed */
+
+.speed1 {
+    animation-duration: 2.7s;
+    animation-delay: .7s;
+}
+
+.speed2 {
+    animation-duration: 2.8s;
+    animation-delay: .8s;
+}
+
+.speed3 {
+    animation-duration: 2.9s;
+    animation-delay: .9s;
+}
+
+.speed4 {
+    animation-duration: 3s;
+    animation-delay: .2s;
+}
+.speed5 {
+    animation-duration: 2.9s;
+    animation-delay: .3s;
+}
+
+/* Middle ground */
+
+#middle-ground {
+    position: absolute;
+    background-size: 100%;
+    background-image: url(svg/dragon-forgame.svg);
+    height: 100px;
+    width: 125px;
+    display: flex;
+    right: 0;
+    bottom: 20px;
+}
+.dragon {
+    animation: bouncing 1s infinite ease-in-out;
+}
+
+/* Animations */
+
+.stop {
+    animation-play-state: paused;
+}
+.fallDown {
+    animation-name: fallDown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+.rotateAndDisappear {
+    animation: rotateAndDisappear 1.2s;
+}
+.rotation {
+    animation: rotation 2s ease-in;
+}
+.fade_out {
+    animation: fade_out 2s ease-in;
+}
+.glow {
+    animation: glow 3s ease-in-out ;
+}
+.zoom {
+    animation: zoom_in 1s ease-in-out;
+}
+.button {
+    animation: button 1s infinite ease-in;
+}
+.button2 {
+    animation: button2 1s infinite ease-in;
+}
+@keyframes fallDown {
+    from {
+        transform: translateY(-130%);
+    }
+
+    to {
+        transform: translateY(1100%);
+    }
+}
+@keyframes glow {
+    100% {
+        filter: brightness(150%); 
+        opacity: 0%;
+        transform: rotate(1200deg) ;
+    }
+}
+@keyframes bouncing {
+    0% {
+        transform: translate(0, 0);
+    }
+    60% {
+        transform: translateY(10%);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes button {
+    0%,
+    100% {
+        filter: brightness(100%) drop-shadow(0 0 -1px #6D597A);
+    }
+
+    50% {
+        filter: brightness(110%) drop-shadow(0 0 15px #355070);
+    }
+}
+
+@keyframes button2 {
+
+    0%,
+    100% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.1, 1.1);
+    }
+}
+
+@keyframes zoom_in {
+    0% {
+        transform: scale(1, 1);
+    }
+    100% {
+        transform: scale(3, 3);
+        opacity: 0%;
+    }
+}
+/* MEDIA TAGS */
+
+@media only screen and (max-width: 700px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    #screen {
+        width: 85%;
+    }
+
+    aside {
+        margin: 1%;
+        margin-top: 20%;
+    }
+
+    #logo {
+        grid-template-columns: 1fr;
+    }
+    .logo-hp {
+        width: auto;
+        height: auto;
+    }
+    #globalnav {
+        display: inline-block;
+    }
+    header {
+        width: 100%;
+    }
+    #play-htp {
+        height: 2.1vh;
+        width: 6.6vw;
+    }
+
+    #dragon-home {
+        height: 35%;
+        width: 25%;
+    }
+    aside h5 {
+        margin-top: 20%;
+        font-size: 16px;
+    }
+    #screen {
+        margin-left: 5%;
+    }
+}
